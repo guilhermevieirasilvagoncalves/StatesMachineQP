@@ -1,0 +1,41 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'Latch_NAND:inst2|inst~1'
+Slack : -0.416
+TNS   : -1.075
+
+Type  : Slow 1200mV 85C Model Hold 'Latch_NAND:inst2|inst~1'
+Slack : 0.347
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Latch_NAND:inst2|inst~1'
+Slack : -1.403
+TNS   : -4.209
+
+Type  : Slow 1200mV 0C Model Setup 'Latch_NAND:inst2|inst~1'
+Slack : -0.292
+TNS   : -0.714
+
+Type  : Slow 1200mV 0C Model Hold 'Latch_NAND:inst2|inst~1'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Latch_NAND:inst2|inst~1'
+Slack : -1.403
+TNS   : -4.209
+
+Type  : Fast 1200mV 0C Model Setup 'Latch_NAND:inst2|inst~1'
+Slack : 0.385
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Latch_NAND:inst2|inst~1'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Latch_NAND:inst2|inst~1'
+Slack : -1.000
+TNS   : -3.000
+
+------------------------------------------------------------

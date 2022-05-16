@@ -1,0 +1,95 @@
+|projetocompleto
+SEG_A <= 74247:inst3.OA
+Q0 <= MaquinadeEstado:inst1.Q0
+S1 => LogicadeSelecao:inst.S1
+S0 => LogicadeSelecao:inst.S0
+CLOCK_A => Latch_NAND:inst2.KEY0
+CLOCK_B => Latch_NAND:inst2.KEY1
+Q1 <= MaquinadeEstado:inst1.Q1
+Q2 <= MaquinadeEstado:inst1.Q2
+SEG_B <= 74247:inst3.OB
+SEG_C <= 74247:inst3.OC
+SEG_D <= 74247:inst3.OD
+SEG_E <= 74247:inst3.OE
+SEG_F <= 74247:inst3.OF
+SEG_G <= 74247:inst3.OG
+Y2 <= MaquinadeEstado:inst1.Y2
+Y1 <= MaquinadeEstado:inst1.Y1
+Y0 <= MaquinadeEstado:inst1.Y0
+
+
+|projetocompleto|74247:inst3
+OG <= 86.DB_MAX_OUTPUT_PORT_TYPE
+B => 54.IN0
+B => 57.IN1
+A => 54.IN1
+A => 56.IN1
+RBIN => 54.IN2
+RBIN => 54.IN3
+C => 54.IN4
+C => 58.IN1
+D => 54.IN5
+D => 62.IN0
+BIN => 55.IN0
+LTN => 60.IN1
+LTN => 61.IN1
+LTN => 64.IN1
+LTN => 59.IN1
+OF <= 85.DB_MAX_OUTPUT_PORT_TYPE
+OE <= 84.DB_MAX_OUTPUT_PORT_TYPE
+RBON <= 87.DB_MAX_OUTPUT_PORT_TYPE
+OD <= 83.DB_MAX_OUTPUT_PORT_TYPE
+OC <= 82.DB_MAX_OUTPUT_PORT_TYPE
+OB <= 81.DB_MAX_OUTPUT_PORT_TYPE
+OA <= 80.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|projetocompleto|MaquinadeEstado:inst1
+Y2 <= inst21.DB_MAX_OUTPUT_PORT_TYPE
+Q2 <= inst27.DB_MAX_OUTPUT_PORT_TYPE
+PRE2 => inst27.PRESET
+CLR2 => inst27.ACLR
+H => inst8.IN0
+H => inst19.IN0
+H => inst.IN0
+H => inst12.IN0
+H => inst16.IN0
+H => inst5.IN0
+Q0 <= inst29.DB_MAX_OUTPUT_PORT_TYPE
+PRE0 => inst29.PRESET
+CLR0 => inst29.ACLR
+Q1 <= inst28.DB_MAX_OUTPUT_PORT_TYPE
+PRE1 => inst28.PRESET
+CLR1 => inst28.ACLR
+CLK => inst28.CLK
+CLK => inst29.CLK
+CLK => inst27.CLK
+Y1 <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+Y0 <= inst25.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|projetocompleto|LogicadeSelecao:inst
+PRE2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S1 => inst3.IN0
+S1 => inst.IN0
+S1 => inst7.IN0
+S1 => inst10.IN0
+S0 => inst1.IN1
+S0 => inst4.IN0
+S0 => inst8.IN1
+S0 => inst10.IN1
+S0 => H.DATAIN
+PRE1 <= <VCC>
+CLR1 <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+PRE0 <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLR0 <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+H <= S0.DB_MAX_OUTPUT_PORT_TYPE
+CLR2 <= <VCC>
+
+
+|projetocompleto|Latch_NAND:inst2
+CLK <= inst.DB_MAX_OUTPUT_PORT_TYPE
+KEY1 => inst1.IN0
+KEY0 => inst.IN1
+
+

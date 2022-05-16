@@ -1,0 +1,24 @@
+|MaquinadeEstado
+Y2 <= inst21.DB_MAX_OUTPUT_PORT_TYPE
+Q2 <= inst27.DB_MAX_OUTPUT_PORT_TYPE
+PRE2 => inst27.PRESET
+CLR2 => inst27.ACLR
+H => inst8.IN0
+H => inst19.IN0
+H => inst.IN0
+H => inst12.IN0
+H => inst16.IN0
+H => inst5.IN0
+Q0 <= inst29.DB_MAX_OUTPUT_PORT_TYPE
+PRE0 => inst29.PRESET
+CLR0 => inst29.ACLR
+Q1 <= inst28.DB_MAX_OUTPUT_PORT_TYPE
+PRE1 => inst28.PRESET
+CLR1 => inst28.ACLR
+CLK => inst28.CLK
+CLK => inst29.CLK
+CLK => inst27.CLK
+Y1 <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+Y0 <= inst25.DB_MAX_OUTPUT_PORT_TYPE
+
+
